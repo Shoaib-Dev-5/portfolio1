@@ -1,0 +1,39 @@
+.skill{
+    overflow: hidden;
+}
+.fa-brands{
+    font-size: 80px;
+    padding: 20px;
+    border-radius:50%;
+    border: 1px solid  rgb(252, 66, 100);
+    color: rgba(0, 0, 0, 0.774);
+    
+}
+.sk-img{
+    width: 120px;
+    height: auto;
+}
+
+.col-12{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 27px;
+}
+.fa-html5, .fa-css3-alt{
+    padding: 25px;
+}
+.skill h2{
+    font-weight: 600;
+}
+@media screen and (max-width:500px) {
+    .fa-brands{
+        font-size: 40px;
+        text-align: center;    
+    }
+    .com-img{
+        width: 80px;
+        height: auto;
+    }
+   
+    
+}

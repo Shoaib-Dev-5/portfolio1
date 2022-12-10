@@ -1,0 +1,149 @@
+.right p{
+    color:#fa537a;
+    font-size: 17px;
+}
+.right span{
+font-weight: bold;
+}
+.right h3{
+    font-weight: 300;
+}
+.left .icon{
+    position: relative;
+}
+.icon .h-i{
+    color: white;
+    border-radius: 50%;
+    background-color:#f85c81b7;
+    font-size: 37px;
+   
+}
+.icon .fa-react{
+    padding: 10px;
+    position: absolute;
+    top: -340px;
+    right: 130px;
+}
+.icon .fa-bootstrap{
+    padding: 12px 10px;
+    position: absolute;
+    top: -180px;
+    right: 130px;
+    transform: rotate(-20deg);
+    font-size: 60px;
+}
+.icon .fa-js{
+    padding: 15px;
+    position: absolute;
+    top: -270px;
+    left: 90px;
+}
+@keyframes move{
+    0%{
+        transform: rotate(180deg);
+
+    }
+  
+    100%{
+        transform: translateY(-40px);
+        color: #fa537a;
+        background-color: white;       
+    }
+
+}
+.h-i{
+    animation: move 4s alternate-reverse both infinite;
+
+}
+.common-btn{
+    border-radius:0 !important;
+    padding: 5px 10px;
+    border:2px solid #f67c92;
+}
+
+.common-btn:hover{
+    background:#f67c92;
+    color: #fff;
+    border:1px solid black;
+    transition: 0.5s;
+}
+.type{
+    color: #fa537a;
+    font-weight: 600;
+}
+
+/* media query */
+@media screen and (max-width:1000px) and (min-width:768px) {
+
+    .icon .h-i{
+        font-size: 23px;
+       
+    }
+    .icon .fa-react{
+        padding: 10px;
+        position: absolute;
+        top: -240px;
+        right: 85px;
+    }
+    .icon .fa-bootstrap{
+        padding: 12px 10px;
+        position: absolute;
+        top: -130px;
+        right: 85px;
+        transform: rotate(-20deg);
+    }
+    .icon .fa-js{
+        padding: 12px;
+        position: absolute;
+        top: -200px;
+        left: 60px;
+    }}
+    @media screen and (max-width:450px) and (min-width:300px) {
+
+        .icon .h-i{
+            font-size: 20px;
+           
+        }
+        .icon .fa-react{
+            padding: 3px;
+            position: absolute;
+            top: -240px;
+            right: 120px;
+        }
+        .icon .fa-bootstrap{
+            padding: 5px 3px;
+            position: absolute;
+            top: -130px;
+            right: 120px;
+            transform: rotate(-20deg);
+        }
+        .icon .fa-js{
+            padding: 5px;
+            position: absolute;
+            top: -200px;
+            left: 100px;
+        }
+        @keyframes move{
+            0%{
+                transform: rotate(180deg);
+        
+            }
+          
+            100%{
+                color: #fa537a;
+                background-color: white; 
+                transform: rotate(-180deg);
+            }
+        
+        }
+        .h-i{
+            animation: move 4s alternate-reverse both infinite;
+        
+        }
+}
+@media screen and (max-width:300px){
+    .icon{
+        display: none;
+    }
+}
+

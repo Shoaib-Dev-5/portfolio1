@@ -1,0 +1,14 @@
+.card{
+    box-shadow:rgb(246, 124, 146) 0px 4px 12px;
+    margin-bottom: 10px;
+}
+.projects .btn{
+    background-color: rgb(246, 124, 146);
+    color: white;
+
+}
+.projects h2{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

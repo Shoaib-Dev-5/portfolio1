@@ -1,0 +1,22 @@
+export const data=[
+    {
+        title:'Home',
+        url:'/'
+    },
+    {
+        title:'About',
+        url:'/about'
+    },
+    {
+        title:'Skills',
+        url:'/skills'
+    },
+    {
+        title:'Project',
+        url:'/projects'
+    },
+    {
+        title:'Contect',
+        url:'/contect'
+    },
+]

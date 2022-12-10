@@ -1,0 +1,29 @@
+
+.contect form input, textarea{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing:border-box ;
+    border: 2px solid #fab3c4;
+}
+.btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn-box button{
+    flex-basis: 48%;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+   
+}
+.common-btn:hover{
+    background:#f67c92;
+    color: #fff;
+    border:1px solid black;
+    transition: 0.8s;
+}

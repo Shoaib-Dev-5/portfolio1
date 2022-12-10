@@ -1,0 +1,99 @@
+
+  nav{
+    background-color:rgb(244, 95, 129);
+    display: flex;
+    color: white;
+    position: relative;
+    justify-content: space-between;
+    z-index: 99;
+    height: 50px;
+  
+  }
+  .logo{
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(249, 144, 169);
+    margin-left: 10px;
+  
+  }
+  .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 33px;
+    font-family: 'Bilbo', cursive;
+  }
+  .menu-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-list li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding:5px 10px;
+    margin-left: 20px;
+  }
+  .menu-list li:last-child {
+    margin-right: 12px;
+  }
+  .menu-list li a:hover{
+    background-color: white;
+    border-radius: 2px;
+    color: black;
+    transition: 0.7s ease-in-out;
+  }
+  li a.active{
+    background-color: white;
+    border-radius: 2px;
+    color: black;
+  }
+  .menu-icon{
+    display: none;
+  }
+  .menu-icon .bi{
+    cursor: pointer;
+    font-size: 37px;
+    align-items: center;
+    margin-right: 15px;
+    display: block;
+  
+  }
+  .menu-icon .bi-list{
+    transform: rotate(360deg);
+    transition:all 0.5s ease-in-out;
+  }
+  .menu-icon .bi-x{
+    transform: rotate(180deg);
+    transition:all 0.5s ease-in-out;
+    
+  }
+  @media screen and (max-width:700px) {
+    .menu-icon{
+      display: block;
+      margin:auto 0;
+    }
+    .menu-list{
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.613);
+      padding: 20px;
+      right: 0;
+       top: 64px; 
+    transition: 0.6s ease-in-out;
+  
+    }
+    .menu-list li{
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .close{
+    right: -120%;
+    transition: 0.6s ease-in-out;
+   }
+   
+    
+  }

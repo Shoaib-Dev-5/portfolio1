@@ -1,0 +1,26 @@
+
+.about span{
+    font-family: 'Kaushan Script', cursive ,sans-serif;
+    color: rgb(246, 124, 146);
+}
+.about .name{
+    font-weight: 600;
+    font-size: 25px;
+}
+.about .left p{
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.about li{
+    font-weight: bold;
+    list-style: none;
+    margin-left: 5px;
+}
+.about h2{
+    font-weight: 600;
+}
+.about .fa-arrow-right{
+    margin-right: 10px;
+    
+}
